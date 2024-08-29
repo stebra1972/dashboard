@@ -7,6 +7,7 @@ html {
 .container {
   text-align: center;
   height: 100%;
+  weight:100%;
   padding: 16px;
   box-sizing: border-box;
 }
@@ -28,12 +29,14 @@ html {
 .dashboard {
   background-color: #005B94;
   grid-row: 1 / 4;
+  height: 100%;
 }
 
 
 
 .article {
   background-color: #7E1DC3;
+  height: 100%;
   grid-row: 2/ 4;
   grid-column: 2 / 4
 }
