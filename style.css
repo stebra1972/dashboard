@@ -32,7 +32,7 @@ html {
     align-items: center;
     margin-left: 15px;
     height: 50px;
-    gap: 23px; /* Adjust the gap between items as needed */
+    gap: 23px; 
 }
 
 
@@ -53,15 +53,20 @@ html {
 .dashboard-item {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adjust the gap between items as needed */
+    gap: 10px; 
 }
 
 
 .article {
   background-color: #bef1f5;
+  text-align: left;
   height: 100%;
   grid-row: 2/ 3;
   grid-column: 2 / 4;
+  align-content: flex-start;
+padding: 20px;
+ 
+  
   
 }
 
@@ -71,8 +76,9 @@ html {
   grid-column: 3 / 4;
   grid-row: 1/2;
   height: 100%;
-  
-  
+  text-align: left;
+  margin-left: 0px;
+    padding-left: 0px;  
 }
 
 .container {
@@ -100,6 +106,7 @@ html {
 
   .article1 {
    height: 9em;
+   text-align: center;
    align-content: center;
    border-left: 10px #f5f23d;
    border-style: solid;
@@ -112,6 +119,7 @@ html {
    margin-left: 10px;
    background-color: white;
    margin-top: 2em;
+   margin-top:0px;
   
   }
 
@@ -127,7 +135,7 @@ html {
      grid-column: 2 / 3;
      border-radius: 10px;
      background-color: white;
-     margin-top: 2em;
+     margin-top: 0px;
      
    }
 
@@ -243,10 +251,20 @@ html {
 
     }
       .searchinput {
-        padding: 1px 250px 4px 2px;
+        padding: 1px 380px 4px 2px;
         border-radius: 15px;
         background-color: #bef1f5;
         border-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      button {
+        background-color: #1a9ae9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
         margin-top: 0px;
       }
 
