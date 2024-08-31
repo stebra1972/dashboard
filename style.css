@@ -23,8 +23,18 @@ html {
   text-align: start;
   padding-left: 10px;
   margin-top: 0px;
+  align-items: top;
   
 }
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    height: 50px;
+    gap: 23px; /* Adjust the gap between items as needed */
+}
+
 
 .dashboard {
   background-color: #1a9ae9;
@@ -34,6 +44,7 @@ html {
   text-align: left;
   vertical-align: center;
   padding: 20px;
+  padding-bottom: 0px;
   
   
    
@@ -61,7 +72,7 @@ html {
 .container {
   display: grid;
   grid-template-columns: 15em 1fr 20em;
-  grid-template-rows: 5em 1fr;
+  grid-template-rows: 8em 1fr;
   gap: 0px;
   font-family: my-cool-font;
 
@@ -73,7 +84,8 @@ html {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #bef1f5;
     align-items: center;
-    gap: 4px;
+    height: 100%;
+    gap: 8px;
     font-family: my-cool-font;
        
     
@@ -225,9 +237,11 @@ html {
 
     }
       .searchinput {
-        padding: 5px 250px 5px 2px;
+        padding: 1px 250px 4px 2px;
         border-radius: 15px;
         background-color: #bef1f5;
+        border-bottom: 0px;
+        margin-top: 0px;
       }
 
 
