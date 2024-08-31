@@ -33,7 +33,34 @@ html {
     margin-left: 15px;
     height: 50px;
     gap: 23px; 
+    font-size: 20px;
 }
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    height: 50px;
+    gap: 23px; 
+    font-size: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    height: 50px;
+    gap: 23px; 
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
 
 
 .dashboard {
@@ -267,6 +294,13 @@ padding: 20px;
         cursor: pointer;
         margin-top: 0px;
       }
+      .dashboard-item span {
+        font-size: 23px; 
+    }
+    .article{
+        font-size: 18px; 
+    }
+
 
 
 
