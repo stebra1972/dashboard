@@ -50,6 +50,12 @@ html {
    
 }
 
+.dashboard-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between items as needed */
+}
+
 
 .article {
   background-color: #bef1f5;
