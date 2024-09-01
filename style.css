@@ -166,7 +166,6 @@ padding: 20px;
     font-size: 5px; /* Font size for the third row */
 }
 
-
   .article2 {
     height: 9em;
     align-content: center;
@@ -182,9 +181,21 @@ padding: 20px;
      margin-top: 0px;
      display: grid;
      grid-template-rows: 1fr 1fr 1fr; 
-  gap: 8px; 
+    gap: 8px; 
      
    }
+
+   .article2 .row1 {
+    font-size: 50px; /* Font size for the first row */
+}
+
+.article2 .row2 {
+    font-size: 25px; /* Font size for the second row */
+}
+
+.article2 .row3 {
+    font-size: 5px; /* Font size for the third row */
+}
 
     .article3 {
      height: 9em;
@@ -205,6 +216,19 @@ padding: 20px;
     
     }
 
+    .article3 .row1 {
+        font-size: 50px; /* Font size for the first row */
+    }
+    
+    .article3 .row2 {
+        font-size: 25px; /* Font size for the second row */
+    }
+    
+    .article3 .row3 {
+        font-size: 5px; /* Font size for the third row */
+    }
+
+
     .article4 {
       height: 9em;
       align-content: center;
@@ -222,6 +246,17 @@ padding: 20px;
     gap: 8px; 
      
      }
+     .article4 .row1 {
+        font-size: 50px; /* Font size for the first row */
+    }
+    
+    .article4 .row2 {
+        font-size: 25px; /* Font size for the second row */
+    }
+    
+    .article4 .row3 {
+        font-size: 5px; /* Font size for the third row */
+    }
 
      .article5 {
       height: 9em;
@@ -241,6 +276,27 @@ padding: 20px;
   gap: 8px; 
      
      }
+     .article5 .row1 {
+        font-size: 50px; /* Font size for the first row */
+    }
+    
+    .article5 .row2 {
+        font-size: 25px; /* Font size for the second row */
+    }
+    
+    .article5 .row3 {
+        font-size: 5px; /* Font size for the third row */
+    }
+
+
+
+
+
+
+
+
+
+
 
      .article6 {
       height: 9em;
@@ -260,6 +316,25 @@ padding: 20px;
      
      }
 
+     .article6 .row1 {
+        font-size: 50px; /* Font size for the first row */
+    }
+    
+    .article6 .row2 {
+        font-size: 25px; /* Font size for the second row */
+    }
+    
+    .article6 .row3 {
+        font-size: 5px; /* Font size for the third row */
+    }
+
+
+
+
+
+
+
+
 
 
      .article7 {
@@ -277,6 +352,27 @@ padding: 20px;
      
      }
 
+     .article7 .row1 {
+        font-size: 50px; /* Font size for the first row */
+    }
+    
+    .article7 .row2 {
+        font-size: 25px; /* Font size for the second row */
+    }
+    
+    .article7 .row3 {
+        font-size: 5px; /* Font size for the third row */
+    }
+
+
+
+
+
+
+
+
+
+
      .article8 {
       height: 14em;
       align-content: center;
@@ -292,6 +388,29 @@ padding: 20px;
          
      
      }
+
+     .article8 .row1 {
+        font-size: 50px; /* Font size for the first row */
+    }
+    
+    .article8 .row2 {
+        font-size: 25px; /* Font size for the second row */
+    }
+    
+    .article8 .row3 {
+        font-size: 5px; /* Font size for the third row */
+    }
+
+    .article8 .row4 {
+        font-size: 5px; /* Font size for the third row */
+    }
+
+
+
+
+
+
+
 
      @font-face {
         font-family: my-cool-font;
