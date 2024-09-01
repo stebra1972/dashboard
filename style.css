@@ -36,14 +36,7 @@ html {
     font-size: 20px;
 }
 
-.header-content {
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-    height: 50px;
-    gap: 23px; 
-    font-size: 20px;
-}
+
 
 .footer-content {
     display: flex;
@@ -396,6 +389,15 @@ gap: 8px;
          
      
      }
+
+     .article8-content {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        height: 50px;
+        gap: 15px; 
+        font-size: 12px;
+    }
 
      .article8 .row1 {
         font-size: 40px; /* Font size for the first row */
