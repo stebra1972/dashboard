@@ -2,6 +2,8 @@ body,
 html {
   height: 100%;
   margin: 2px;
+  z-index: -1;
+  box-shadow: 0 0px 20px 2px #ddd;
 
 }
 
@@ -10,6 +12,8 @@ html {
   height: 100%;
   padding: 3px;
   box-sizing: border-box;
+  z-index: -1;
+  box-shadow: 0 0px 20px 2px #ddd;
  
 }
 
@@ -24,7 +28,7 @@ html {
   padding-left: 10px;
   margin-top: 0px;
   align-items: top;
-  
+
 }
 
 .header-content {
@@ -34,6 +38,7 @@ html {
     height: 50px;
     gap: 23px; 
     font-size: 20px;
+    
 }
 
 
@@ -58,8 +63,7 @@ html {
   vertical-align: center;
   padding: 20px;
   padding-top: 10px;
-  
-  
+   
    
 }
 
@@ -78,6 +82,7 @@ html {
   grid-column: 2 / 4;
   align-content: flex-start;
     padding-top: 10px;
+
  
   
   
@@ -100,6 +105,8 @@ html {
   grid-template-rows: 8em 1fr;
   gap: 0px;
   font-family: my-cool-font;
+  z-index: -1;
+  box-shadow: 0 0px 10px 2px #ddd;
 
 }
 
@@ -112,6 +119,7 @@ html {
     height: 100%;
     gap: 18px;
     font-family: my-cool-font;
+
      
      
     }
@@ -151,7 +159,7 @@ html {
   grid-template-rows: 1fr 1fr 1fr; 
   gap: 8px; 
   padding: 10px;
-
+  box-shadow: 0 3px 12px 6px #1a9ae9;
   
   }
 
@@ -188,7 +196,7 @@ html {
      grid-template-rows: 1fr 1fr 1fr; 
      padding: 10px;
 gap: 8px; 
-   
+box-shadow: 0 3px 12px 6px #1a9ae9;
      
    }
 
@@ -223,7 +231,7 @@ gap: 8px;
       grid-template-rows: 1fr 1fr 1fr; 
         gap: 8px; 
         padding: 10px;
-    
+        box-shadow: 0 3px 12px 6px #1a9ae9;
     }
 
     .article3 .row1 {
@@ -257,7 +265,7 @@ gap: 8px;
        grid-template-rows: 1fr 1fr 1fr; 
         gap: 8px; 
         padding: 10px;
-     
+        box-shadow: 0 3px 12px 6px #1a9ae9;
      }
      .article4 .row1 {
         font-size: 20px; /* Font size for the first row */
@@ -290,7 +298,7 @@ gap: 8px;
        grid-template-rows: 1fr 1fr 1fr; 
         gap: 8px; 
         padding: 10px;
-     
+        box-shadow: 0 3px 12px 6px #1a9ae9;
      }
      .article5 .row1 {
         font-size: 20px; /* Font size for the first row */
@@ -322,7 +330,7 @@ gap: 8px;
        grid-template-rows: 1fr 1fr 1fr; 
         gap: 8px; 
         padding: 10px;
-     
+        box-shadow: 0 3px 12px 6px #1a9ae9;
      }
 
      .article6 .row1 {
@@ -352,7 +360,7 @@ gap: 8px;
        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
        gap: 8px;
        padding: 10px; 
-     
+       box-shadow: 0 3px 12px 6px #1a9ae9;
      }
 
      .article7 .row1 {
@@ -413,7 +421,7 @@ gap: 8px;
       gap: 8px; 
       padding: 10px;
          
-     
+      box-shadow: 0 3px 12px 6px #1a9ae9;
      }
 
      .article8-content {
@@ -486,6 +494,9 @@ gap: 8px;
         border-radius: 15px;
         cursor: pointer;
         margin-top: 0px;
+        box-shadow: 0 3px 3px 3px #1a9ae9;
+
+
       }
       .dashboard-item span {
         font-size: 23px; 
