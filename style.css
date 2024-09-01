@@ -147,8 +147,25 @@ padding: 20px;
    background-color: white;
    margin-top: 2em;
    margin-top:0px;
+   display: grid;
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 8px; 
+
   
   }
+
+  .article1 .row1 {
+    font-size: 50px; /* Font size for the first row */
+}
+
+.article1 .row2 {
+    font-size: 25px; /* Font size for the second row */
+}
+
+.article1 .row3 {
+    font-size: 5px; /* Font size for the third row */
+}
+
 
   .article2 {
     height: 9em;
@@ -163,6 +180,9 @@ padding: 20px;
      border-radius: 10px;
      background-color: white;
      margin-top: 0px;
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr; 
+  gap: 8px; 
      
    }
 
@@ -179,6 +199,9 @@ padding: 20px;
       border-radius: 10px;
       margin-left: 10px;
       background-color: white;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr; 
+    gap: 8px; 
     
     }
 
@@ -194,6 +217,9 @@ padding: 20px;
        grid-column: 2/ 3;
        border-radius: 10px;
        background-color: white;
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr; 
+    gap: 8px; 
      
      }
 
@@ -210,6 +236,9 @@ padding: 20px;
        border-radius: 10px;
        margin-left: 10px;
        background-color: white;
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr; 
+  gap: 8px; 
      
      }
 
@@ -225,6 +254,9 @@ padding: 20px;
        grid-column: 2 / 3;
        border-radius: 10px;
        background-color: white;
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr; 
+  gap: 8px; 
      
      }
 
@@ -233,14 +265,15 @@ padding: 20px;
      .article7 {
       height: 14em;
       align-content: center;
-      
-
        grid-row: 1/ 4;
        grid-column: 3/ 4;
        border-radius: 10px;
        background-color: white;
        margin-left: 2em;
        margin-right: 2em;
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr; 
+  gap: 8px; 
      
      }
 
@@ -253,6 +286,9 @@ padding: 20px;
        background-color: white;
          margin-left: 2em;
          margin-right: 2em;
+         display: grid;
+         grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 8px; 
          
      
      }
@@ -297,9 +333,7 @@ padding: 20px;
       .dashboard-item span {
         font-size: 23px; 
     }
-    .article{
-        font-size: 18px; 
-    }
+
 
 
 
