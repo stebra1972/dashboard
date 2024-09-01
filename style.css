@@ -77,7 +77,7 @@ html {
   grid-row: 2/ 3;
   grid-column: 2 / 4;
   align-content: flex-start;
-padding: 20px;
+    padding: 0px;
  
   
   
@@ -147,8 +147,11 @@ padding: 20px;
 }
 
 .article1 .row2 {
-    font-size: 10px; /* Font size for the second row */
-}
+    font-size: 13px; 
+    font-family:Arial, Helvetica, sans-serif;
+      }
+
+
 
 .article1 .row3 {
     align-content: end;
@@ -180,8 +183,9 @@ gap: 8px;
 }
 
 .article2 .row2 {
-    font-size: 10px; /* Font size for the second row */
-}
+    font-size: 13px; 
+    font-family:Arial, Helvetica, sans-serif;
+      }
 
 .article2 .row3 {
     align-content: end;
@@ -213,8 +217,9 @@ gap: 8px;
     }
     
     .article3 .row2 {
-        font-size: 10px; /* Font size for the second row */
-    }
+        font-size: 13px; 
+        font-family:Arial, Helvetica, sans-serif;
+          }
     
     .article3 .row3 {
         align-content: end;
@@ -245,8 +250,9 @@ gap: 8px;
     }
     
     .article4 .row2 {
-        font-size: 10px; /* Font size for the second row */
-    }
+        font-size: 13px; 
+        font-family:Arial, Helvetica, sans-serif;
+          }
     
     .article4 .row3 {
         align-content: end;
@@ -277,8 +283,9 @@ gap: 8px;
     }
     
     .article5 .row2 {
-        font-size: 10px; /* Font size for the second row */
-    }
+        font-size: 13px; 
+        font-family:Arial, Helvetica, sans-serif;
+          }
     
     .article5 .row3 {
         align-content: end;
@@ -309,8 +316,9 @@ gap: 8px;
     }
     
     .article6 .row2 {
-        font-size: 10px; /* Font size for the second row */
-    }
+        font-size: 13px; 
+        font-family:Arial, Helvetica, sans-serif;
+          }
     
     .article6 .row3 {
         align-content: end;
@@ -338,8 +346,10 @@ gap: 8px;
     }
     
     .article7 .row2 {
-        font-size: 8px; /* Font size for the second row */
-    }
+        
+            font-size: 10px; 
+            font-family:Arial, Helvetica, sans-serif;
+              }
     
     .article7 .row3 {
         font-size: 15px; /* Font size for the third row */
@@ -350,20 +360,22 @@ gap: 8px;
     }
     
     .article7 .row5 {
-        font-size: 8px; /* Font size for the second row */
-    }
+        font-size: 10px; 
+        font-family:Arial, Helvetica, sans-serif;
+          }
     
     .article7 .row6 {
-        font-size: 15px; /* Font size for the third row */
+        font-size: 15px; 
     }
 
     .article7 .row7 {
-        font-size: 13px; /* Font size for the second row */
+        font-size: 13px; 
     }
     
     .article7 .row8 {
-        font-size: 8px; /* Font size for the third row */
-    }
+        font-size: 10px; 
+        font-family:Arial, Helvetica, sans-serif;
+          }
     .article7 .row9 {
         font-size: 15px; /* Font size for the third row */
     }
@@ -404,7 +416,9 @@ gap: 8px;
     }
     
     .article8 .row2 {
-        font-size: 15px; /* Font size for the second row */
+        font-size: 15px; 
+
+
     }
     
     .article8 .row3 {
@@ -462,6 +476,11 @@ gap: 8px;
       .dashboard-item span {
         font-size: 23px; 
     }
+
+    .intro{
+        font-size: 11px; 
+        font-family: Arial, Helvetica, sans-serif;
+          }
 
 
 
